@@ -1,5 +1,5 @@
 # Level 2
-from cmath import sqrt
+from math import sqrt
 from platform import python_version
 
 # question 1
@@ -65,10 +65,10 @@ my_dict = {
 
 # Question 2 : Find an Euclidian distance between (2, 3) and (10, 8)
 x1 = 2
-x2 = 3
-y1 = 10
-y2 = 9
+x2 = 10
+y1 = 3
+y2 = 8
 
 euclidian_distance =sqrt(((x2 - x1)**2) + ((y2 -y1)**2))
-print("This is answer : ", euclidian_distance)
+print("This is answer : ", euclidian_distance)  #  This is answer :  9.433981132056603
 print(sqrt(100))
